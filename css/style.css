@@ -1,0 +1,279 @@
+body {
+    margin: 0px;
+}
+
+.header div img {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.header div div {
+    margin-top: 13%;
+    width: 80%;
+}
+
+.header div h3 {
+    font-size: 20px;
+    margin-top: 13%;
+    margin-left: 15%;
+    color: orange;
+}
+
+.nb div ul {
+    margin-left: 35%;
+}
+
+.title2 h1 {
+    color: #0ec0c3;
+    text-align: center;
+}
+
+.vr img {
+    width: 100%;
+    margin-left: 2%;
+}
+
+.vr p {
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+
+.vpi h3,
+.vpf h3 {
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+}
+
+.vpi p {
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.vpf ul {
+    font-size: 25px;
+    color: rgb(24, 163, 163);
+    margin-left: 3.5%;
+}
+
+
+.eg h3 {
+    color: rgb(124, 15, 15);
+    font-size: 30px;
+    margin-left: 10%;
+
+}
+
+
+.eg p {
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.ima img {
+    width: 50%;
+    height: 200px;
+}
+
+.footer {
+    background-color: #0ebfc5;
+    text-align: center;
+    color: white;
+    padding: 8px 0px;
+}
+
+.title2 {
+    color: #0ebfc5;
+    text-align: center;
+    margin: 3% 0%;
+}
+
+.sec2_watch div img {
+    width: 70%;
+    height: 280px;
+    margin-left: 15%;
+
+}
+
+.sec2_watch {
+    border: 2px solid white;
+    width: 40%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 5px rgb(88, 86, 86);
+    text-align: center;
+    color: orange;
+}
+
+
+.sec1 {
+    border: 2px solid white;
+    margin-bottom: 2%;
+    box-shadow: 5px 5px 5px rgb(88, 86, 86);
+    height: 730px;
+}
+
+.sec1 div img {
+    width: 45%;
+    margin-left: 30%;
+}
+
+
+.sec1 div h3 {
+    color: orange;
+    text-align: center;
+}
+
+.sec1 div ul {
+    list-style: none;
+    color: rgb(12, 156, 156);
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 767.98px) {
+    .header div img {
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 2%;
+    }
+
+    .header_sec2 {
+        width: 110%;
+        margin-left: 5%;
+    }
+
+    .header div h3 {
+        font-size: 22px;
+        margin-top: 2%;
+        color: orange;
+        text-align: center;
+        margin-left: 1%;
+    }
+
+    .header div div {
+        margin-top: 2%;
+        width: 80%;
+    }
+
+    .vr img {
+        width: 95%;
+        margin-left: 2.5%;
+        height: 300px;
+        margin-bottom: 3%;
+    }
+
+    .vr p {
+        text-align: justify;
+        font-size: 22px;
+        margin-left: 2%;
+        width: 95%;
+    }
+
+
+    .vpi p {
+        text-align: justify;
+        font-size: 22px;
+        margin-left: 5%;
+        width: 91%;
+    }
+
+    .vpi h3,
+    .vpf h3 {
+        color: orange;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 0%;
+    }
+
+    .vpf ul {
+        font-size: 22px;
+        color: rgb(24, 163, 163);
+        margin-left: 3.5%;
+    }
+
+
+    .sec3 {
+        display: flex;
+    }
+
+
+    .eg,
+    .ima {
+        width: 50%;
+    }
+
+    .ima img {
+        width: 72%;
+        height: 165px;
+        margin-left: 11%;
+    }
+
+    .eg p {
+        font-size: 22px;
+        margin-left: 20%;
+    }
+
+    .eg h3 {
+        color: rgb(124, 15, 15);
+        font-size: 30px;
+        margin-left: 20%;
+    }
+
+    .sec1 {
+        border: 2px solid white;
+        margin-bottom: 2%;
+        box-shadow: 5px 5px 5px rgb(88, 86, 86);
+        height: 60%;
+        width: 91.5%;
+        margin-left: 5%;
+    }
+
+    .sec1 div img {
+        width: 55%;
+        margin-left: 22%;
+        height: 35%;
+    }
+
+    .sec1 div h3 {
+        color: orange;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .sec1 div ul {
+        list-style: none;
+        color: rgb(12, 156, 156);
+        font-size: 20px;
+        margin-left: 2%;
+        text-align: justify;
+    }
+
+
+    .sec2_watch {
+        border: 2px solid white;
+        width: 92%;
+        height: 70%;
+        margin-left: 4.5%;
+        margin-bottom: 5%;
+        box-shadow: 5px 5px 5px rgb(88, 86, 86);
+        text-align: center;
+        color: orange;
+    }
+
+    .sec2_watch div img {
+        width: 70%;
+        height: 20%;
+        margin-left: 10%;
+    }
+
+    .title2 {
+        color: #0ebfc5;
+        text-align: center;
+        margin: 3% 0%;
+    }
+}
