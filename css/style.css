@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+.header div {
+    padding: 0px;
+}
+
 .header div img {
     width: 20%;
     margin-left: 5%;
@@ -84,6 +88,7 @@ body {
     text-align: center;
     color: white;
     padding: 8px 0px;
+    margin: 0px;
 }
 
 .title2 {
@@ -276,4 +281,6 @@ body {
         text-align: center;
         margin: 3% 0%;
     }
+
+
 }
